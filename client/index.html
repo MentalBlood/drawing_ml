@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="drawingboard.min.css">
+		<link rel="stylesheet" href="index.css">
+		<meta name="description" content="Drawing and ML styling app"/>
+		<title>drawing_ml</title>
+	</head>
+	<body>
+		<div class="boardsWrapper">
+			<div id="drawing-board" class="drawingBoard"></div>
+			<img id="transformed-image" class="transformedImage"></img>
+		</div>
+		
+		<div class="buttons">
+			<button class="transformButton" onclick="transform()">transform</button>
+			<button class="downloadButton" onclick="download()">download</button>
+		</div>
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="drawingboard.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

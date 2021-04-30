@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+}
+
+.transformButton {
+	width: 6vw;
+}
+
+.drawingBoard {
+	width: calc(50vw - calc(1px * 4));
+	height: calc(100vh - 28px);
+}
+
+.transformedImage {
+	border: 1px solid #ddd;
+	max-width: 100%;
+	height: auto;
+}
+
+.drawingBoard {
+	display: inline-block;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
